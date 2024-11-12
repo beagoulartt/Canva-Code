@@ -9,5 +9,5 @@ headers <- c(
 res <- VERB("GET", url = "https://api.canva.com/rest/v1/brand-templates/DAGIg6rBKAU/dataset", add_headers(.headers = headers))
 
 # Output the content
-cat(content(res, 'text'))
+cat(content(res, 'text')) 
 
